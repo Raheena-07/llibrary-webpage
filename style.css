@@ -1,0 +1,82 @@
+
+.lib{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),url(images/background.jpg);
+    background-size: cover;
+    background-position:center ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(235, 212, 212); 
+    text-align: start;
+    padding: 50px;
+}
+
+.lib h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+.lib p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin:o auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    
+
+}
+.btn-dark{
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 200px;
+    font-family:'Times New Roman', Times, serif;
+
+    
+ }
+.btn-dark{
+    background-color: black;
+    color: rgb(19, 19, 19);
+    border-radius: 10px;
+    padding: 6px 18px;
+    font-weight: 
+}
+ .book-img {
+      width: 100%;
+      max-width: 250px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.btn-green {
+      background-color: #2e8b57;
+      color: white;
+}
+ .btn-green:hover {
+    background-color: #256d46;
+}
+.links a{
+  text-decoration: none;
+  margin:10px;
+}
+.star-icon{
+  font-size:0.5rm;
+}
+.book-img2{
+  height: 400px;
+}
+.book-img3{
+  height: 400px;
+}
+ .same-genre-books {
+            background-color: #f8f9fa;
+            padding: 20px;
+}
+.same-genre-books .card {
+            border: none;
+            background: none
+}
+.same-genre-books .card-img-top {
+            width: 100%;;
+            height: 150px;
+            object-fit: cover;
+}
